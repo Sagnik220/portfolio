@@ -40,7 +40,7 @@ const About = () => {
                                 className='about-link-element'
                                 href='https://auth.geeksforgeeks.org/user/sagnikmukherjee2/articles'
                             >
-                                My GeeksforGeeks artciles!
+                                My GeeksforGeeks articles!
                             </a>
                         </p>
                     </p>
