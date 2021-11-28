@@ -23,8 +23,8 @@ export const projectsData = [
             `The idea of the project is to automate traffic light system using Mediapipe,OpenCV and Arduino. We have taken the idea of Handtracking using the Mediapipe Library to count the finger's to light up the LED's.`,
         imageUrl: 'https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/04/09/10/istock-598086962.jpg?width=990&auto=webp&quality=75&crop=982:726,smart',
         Application:
-            'https://freshfind.netlify.app/',
-        projectUrl: 'https://github.com/Sagnik220/FreshFind',
+            'https://github.com/Sagnik220/Traffic-Light-Automation',
+        projectUrl: 'https://github.com/Sagnik220/Traffic-Light-Automation',
     },
     {
         projectName: 'FireGuard',
