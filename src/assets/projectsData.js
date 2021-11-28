@@ -9,6 +9,24 @@ export const projectsData = [
         projectUrl: 'https://github.com/Sagnik220/Aviation-Price-Prediction',
     },
     {
+        projectName: 'FreshFind',
+        projectDescription:
+            `Job Listing Website for freshers for offcampus opportunities.The idea behind FreshFind is to make freshers aware of various off-campus Job & Internship opportunity for their career start.`,
+        imageUrl: 'https://i0.wp.com/www.jobopening.in/wp-content/uploads/2019/07/interview-1018333_640-1.png?fit=640%2C481&ssl=1',
+        Application:
+            'https://freshfind.netlify.app/',
+        projectUrl: 'https://github.com/Sagnik220/FreshFind',
+    },
+    {
+        projectName: 'Traffic-Light Automation [OpenCV,Mediapipe,Arduino UNO]',
+        projectDescription:
+            `The idea of the project is to automate traffic light system using Mediapipe,OpenCV and Arduino. We have taken the idea of Handtracking using the Mediapipe Library to count the finger's to light up the LED's.`,
+        imageUrl: 'https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/04/09/10/istock-598086962.jpg?width=990&auto=webp&quality=75&crop=982:726,smart',
+        Application:
+            'https://freshfind.netlify.app/',
+        projectUrl: 'https://github.com/Sagnik220/FreshFind',
+    },
+    {
         projectName: 'FireGuard',
         projectDescription:
             'A Machine Learning based Web Application for helping people by predicting the chances of a Forest Fire',
