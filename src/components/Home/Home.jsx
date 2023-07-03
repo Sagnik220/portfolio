@@ -20,7 +20,7 @@ class Home extends Component {
                     <Link to='/contact' className='btn btn-transparent'>
                         <p className='btn-text'>Connect with me</p>
                     </Link>
-                    <a href='https://drive.google.com/file/d/1JQifKo-eZ5CCDXw0HWYRvcOlUXehNUal/view?usp=sharing' className='btn btn-white'>
+                    <a href='https://drive.google.com/file/d/1yo4FkFEJm5oZ1V-qYWrXdkmTyY1iqAml/view?usp=sharing' className='btn btn-white'>
                         <p className='btn-text'>Get My Resume</p>
                     </a>
                 </div>
