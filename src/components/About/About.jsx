@@ -16,7 +16,7 @@ const About = () => {
             <div className='about-main'>
                 <div className='about-main-left'>
                     {/* Sub section 1 */}
-                    <h3 className='about-sub-head'>Student</h3>
+                    <h3 className='about-sub-head'>Data Engineer</h3>
                     <p className='about-details'>
 I'm Sagnik, a dedicated Data Engineer with a passion for turning data into actionable insights. With over 2 years of experience, I've honed my skills in building and optimizing data pipelines that empower businesses to make informed decisions. My expertise lies in working with a variety of tools and technologies, including Python, SQL, and cloud-based solutions, to create scalable and efficient data architectures.
 
