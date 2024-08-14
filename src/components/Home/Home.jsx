@@ -11,7 +11,7 @@ class Home extends Component {
             <div className='home-container'>
                 <div className='header-text'>
                     <h1>Welcome to my portfolio!</h1>
-                    <p>Hi I am Sagnik a Full Stack Machine Learning Engineer</p>
+                    <p>I'm Sagnik, a Data Engineer with 2+ years of experience in designing and optimizing data pipelines and architectures. I specialize in transforming raw data into actionable insights using tools like Python, SQL, and cloud platforms. My expertise spans ETL/ELT processes, big data technologies, and scalable cloud solutions. Explore my work to see how I turn complex data challenges into valuable business solutions.</p>
                 </div>
                 <div className='head-btns'>
                     <Link to='/about' className='btn btn-white'>
@@ -20,7 +20,7 @@ class Home extends Component {
                     <Link to='/contact' className='btn btn-transparent'>
                         <p className='btn-text'>Connect with me</p>
                     </Link>
-                    <a href='https://drive.google.com/file/d/1yo4FkFEJm5oZ1V-qYWrXdkmTyY1iqAml/view?usp=sharing' className='btn btn-white'>
+                    <a href='https://drive.google.com/file/d/1G8LKutyLQ_Afzm5TME8O0nETCrYRwVsA/view' className='btn btn-white'>
                         <p className='btn-text'>Get My Resume</p>
                     </a>
                 </div>
