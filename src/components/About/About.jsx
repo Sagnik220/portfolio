@@ -10,7 +10,7 @@ const About = () => {
         <div className='section-container'>
             <Header
                 heading='About Me.'
-                details='Software Developer | Open Source Contributor | ML Enthusiast | Electronics & Instrumentation Engineer '
+                details='Data Engineer'
             />
 
             <div className='about-main'>
