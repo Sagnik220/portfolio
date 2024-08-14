@@ -51,7 +51,7 @@ Take a look at my work to see how I can help your business harness the power of 
                     <h3 className='about-sub-head'>OpenSource Contributor</h3>
                     <p className='about-details'>
                         Being a passionate person interested in open source I would love to collaborate on projects
-                        related to Machine Learning,Deep Learning.Data Engineering!{' '}
+                        related to Data Engineering,Machine Learning & Deep Learning!{' '}
                         <p>
                             <a
                                 className='about-link-element'
