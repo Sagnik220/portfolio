@@ -18,8 +18,13 @@ const About = () => {
                     {/* Sub section 1 */}
                     <h3 className='about-sub-head'>Student</h3>
                     <p className='about-details'>
-                        Currently I am Student at Heritage Institute of Technology pursuing my Bachelors in Electronics & Instrumentation, interested in 
-                        Software Development,Machine Learning,Deep Learning.{' '}
+                        ### About Me
+
+I'm Sagnik, a dedicated Data Engineer with a passion for turning data into actionable insights. With over 2 years of experience, I've honed my skills in building and optimizing data pipelines that empower businesses to make informed decisions. My expertise lies in working with a variety of tools and technologies, including Python, SQL, and cloud-based solutions, to create scalable and efficient data architectures.
+
+I thrive on solving complex data problems and take pride in delivering solutions that are both innovative and practical. Whether it's designing ETL processes or handling large-scale data processing, my focus is always on adding value and improving business outcomes. Outside of work, I enjoy exploring new technologies and keeping up with the latest trends in data engineering.
+
+Take a look at my work to see how I can help your business harness the power of data.{' '}
                         <p>
                             <a
                                 className='about-link-element'
@@ -33,14 +38,13 @@ const About = () => {
                     {/* Sub section 2 */}
                     <h3 className='about-sub-head'>Technical Writer</h3>
                     <p className='about-details'>
-                        I've been writing technical articles for over 1 year related to the latest technologies such as Digital 
-                        Signal Processing, Machine Learning, Data Structure, Algorithms.{' '}
+                        I've been writing technical articles for over 3 year related to the Data Engineering{' '}
                         <p>
                             <a
                                 className='about-link-element'
-                                href='https://auth.geeksforgeeks.org/user/sagnikmukherjee2/articles'
+                                href='https://medium.com/@nik.mukherjee22'
                             >
-                                My GeeksforGeeks articles!
+                                My Medium Articles
                             </a>
                         </p>
                     </p>
@@ -49,7 +53,7 @@ const About = () => {
                     <h3 className='about-sub-head'>OpenSource Contributor</h3>
                     <p className='about-details'>
                         Being a passionate person interested in open source I would love to collaborate on projects
-                        related to Machine Learning,Deep Learning!{' '}
+                        related to Machine Learning,Deep Learning.Data Engineering!{' '}
                         <p>
                             <a
                                 className='about-link-element'
