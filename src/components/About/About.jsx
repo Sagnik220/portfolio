@@ -18,8 +18,6 @@ const About = () => {
                     {/* Sub section 1 */}
                     <h3 className='about-sub-head'>Student</h3>
                     <p className='about-details'>
-                        ### About Me
-
 I'm Sagnik, a dedicated Data Engineer with a passion for turning data into actionable insights. With over 2 years of experience, I've honed my skills in building and optimizing data pipelines that empower businesses to make informed decisions. My expertise lies in working with a variety of tools and technologies, including Python, SQL, and cloud-based solutions, to create scalable and efficient data architectures.
 
 I thrive on solving complex data problems and take pride in delivering solutions that are both innovative and practical. Whether it's designing ETL processes or handling large-scale data processing, my focus is always on adding value and improving business outcomes. Outside of work, I enjoy exploring new technologies and keeping up with the latest trends in data engineering.
