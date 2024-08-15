@@ -12,41 +12,9 @@ export const skillList = [
         skillUrl: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg',
     },
     {
-        skillName: 'HTML',
-        skillUrl: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg',
-    },
-    {
-        skillName: 'CSS',
-        skillUrl: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg',
-    },
-    {
-        skillName: 'JavaScript',
-        skillUrl: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg',
-    },
-    {
-        skillName: 'Dart',
-        skillUrl: 'https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg',
-    },
-    {
-        skillName: 'React',
-        skillUrl: 'https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg',
-    },
-    {
-        skillName: 'Tensorflow',
-        skillUrl: 'https://cdn.svgporn.com/logos/tensorflow.svg',
-    },
-    {
-        skillName: 'PyTorch',
-        skillUrl: 'https://cdn.svgporn.com/logos/pytorch.svg',
-    },
-    {
-        skillName: 'Django',
-        skillUrl: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/django/django-original.svg',
-    },
-    {
-        skillName: 'Flutter',
-        skillUrl: 'https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg',
-    },
+        skillName: 'Oracle Cloud Infrastructure (OCI)',
+        skillUrl: 'https://www.oracle.com/favicon.ico',
+    }, 
     {
         skillName: 'Docker',
         skillUrl: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg',
@@ -54,10 +22,6 @@ export const skillList = [
     {
         skillName: 'Kubernetes',
         skillUrl: 'https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg',
-    },
-    {
-        skillName: 'Postman',
-        skillUrl: 'https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg',
     },
     {
         skillName: 'Git',
@@ -68,20 +32,11 @@ export const skillList = [
         skillUrl: 'https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg',
     },
     {
-        skillName: 'Heroku',
-        skillUrl: 'https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg',
-    },
-    {
-        skillName: 'Firebase',
-        skillUrl: 'https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg',
-    },
-    {
         skillName: 'MySQL',
         skillUrl: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg',
     },
     {
-        skillName: 'MongoDB',
-        skillUrl: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg',
+        skillName: 'Autonomous Data Warehouse',
+        skillUrl: 'https://arisant.com/wp-content/uploads/2019/09/autonomous-500x500.png',
     },
-    
 ];
