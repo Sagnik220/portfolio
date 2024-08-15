@@ -51,6 +51,5 @@ export const skillList = [
     {
         skillName: 'Azure Data Factory',
         skillUrl: 'https://cdn.prod.website-files.com/605c9e03d6553a5d82976ce2/668301061a046a755e03a047_0_IOGNRnuhopjfGQzl.png',
-    },
-            
+    }            
 ];
