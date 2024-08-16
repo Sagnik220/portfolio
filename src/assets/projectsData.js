@@ -6,7 +6,6 @@ export const projectsData = [
         imageUrl: 'https://steltix-staging.com/wp-content/uploads/2021/10/Oracle-oci-logo.png',
         projectUrl: 'https://github.com/Sagnik220/Weather-Data-Engineering',
     },
-    
     {
         projectName: 'Unipredict',
         projectDescription:
@@ -16,5 +15,4 @@ export const projectsData = [
             'https://uni-predict.herokuapp.com/',
         projectUrl: 'https://github.com/Sagnik220/Graduate-Admission-Predictor/tree/master',
     },
-   
 ];
