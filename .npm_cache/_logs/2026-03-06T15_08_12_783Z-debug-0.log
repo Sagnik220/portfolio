@@ -1,0 +1,594 @@
+0 verbose cli /Users/sagnikmukherjee/.nvm/versions/node/v22.22.0/bin/node /Users/sagnikmukherjee/.nvm/versions/node/v22.22.0/bin/npm
+1 info using npm@10.9.4
+2 info using node@v22.22.0
+3 silly config load:file:/Users/sagnikmukherjee/.nvm/versions/node/v22.22.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/sagnikmukherjee/Documents/Data Engineer Portfolio/.npmrc
+5 silly config load:file:/Users/sagnikmukherjee/.npmrc
+6 silly config load:file:/Users/sagnikmukherjee/.nvm/versions/node/v22.22.0/etc/npmrc
+7 verbose title npm install three @react-three/fiber @react-three/drei framer-motion lucide-react lenis clsx tailwind-merge
+8 verbose argv "install" "three" "@react-three/fiber" "@react-three/drei" "framer-motion" "lucide-react" "lenis" "clsx" "tailwind-merge" "--cache" ".npm_cache" "--force"
+9 verbose logfile logs-max:10 dir:/Users/sagnikmukherjee/Documents/Data Engineer Portfolio/.npm_cache/_logs/2026-03-06T15_08_12_783Z-
+10 verbose logfile /Users/sagnikmukherjee/Documents/Data Engineer Portfolio/.npm_cache/_logs/2026-03-06T15_08_12_783Z-debug-0.log
+11 warn using --force Recommended protections disabled.
+12 silly logfile done cleaning log files
+13 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+14 silly idealTree buildDeps
+15 silly fetch manifest @react-three/drei@^9.105.4
+16 silly packumentCache full:https://registry.npmjs.org/@react-three%2fdrei cache-miss
+17 http cache https://registry.npmjs.org/@react-three%2fdrei 14ms (cache hit)
+18 silly packumentCache full:https://registry.npmjs.org/@react-three%2fdrei set size:2751174 disposed:false
+19 silly fetch manifest @react-three/fiber@^8.16.2
+20 silly packumentCache full:https://registry.npmjs.org/@react-three%2ffiber cache-miss
+21 http cache https://registry.npmjs.org/@react-three%2ffiber 2ms (cache hit)
+22 silly packumentCache full:https://registry.npmjs.org/@react-three%2ffiber set size:1114572 disposed:false
+23 silly fetch manifest expo@>=43.0
+24 silly packumentCache full:https://registry.npmjs.org/expo cache-miss
+25 http cache https://registry.npmjs.org/expo 4ms (cache hit)
+26 silly packumentCache full:https://registry.npmjs.org/expo set size:3554857 disposed:false
+27 silly fetch manifest @expo/dom-webview@*
+28 silly packumentCache full:https://registry.npmjs.org/@expo%2fdom-webview cache-miss
+29 http cache https://registry.npmjs.org/@expo%2fdom-webview 2ms (cache hit)
+30 silly packumentCache full:https://registry.npmjs.org/@expo%2fdom-webview set size:321826 disposed:false
+31 silly fetch manifest react@^18.3.1
+32 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+33 http cache https://registry.npmjs.org/react 6ms (cache hit)
+34 silly packumentCache full:https://registry.npmjs.org/react set size:6531716 disposed:false
+35 silly fetch manifest react-native@*
+36 silly packumentCache full:https://registry.npmjs.org/react-native cache-miss
+37 http cache https://registry.npmjs.org/react-native 14ms (cache hit)
+38 silly packumentCache full:https://registry.npmjs.org/react-native set size:14923870 disposed:false
+39 silly fetch manifest @types/react@^18.3.3
+40 silly packumentCache full:https://registry.npmjs.org/@types%2freact cache-miss
+41 http cache https://registry.npmjs.org/@types%2freact 3ms (cache hit)
+42 silly packumentCache full:https://registry.npmjs.org/@types%2freact set size:2588986 disposed:false
+43 silly fetch manifest @types/react@^19.1.1
+44 silly packumentCache full:https://registry.npmjs.org/@types%2freact cache-miss
+45 http cache https://registry.npmjs.org/@types%2freact 3ms (cache hit)
+46 silly packumentCache full:https://registry.npmjs.org/@types%2freact set size:2588986 disposed:false
+47 silly fetch manifest react@^19.2.3
+48 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+49 http cache https://registry.npmjs.org/react 6ms (cache hit)
+50 silly packumentCache full:https://registry.npmjs.org/react set size:6531716 disposed:false
+51 silly fetch manifest @expo/metro-runtime@*
+52 silly packumentCache full:https://registry.npmjs.org/@expo%2fmetro-runtime cache-miss
+53 http cache https://registry.npmjs.org/@expo%2fmetro-runtime 4ms (cache hit)
+54 silly packumentCache full:https://registry.npmjs.org/@expo%2fmetro-runtime set size:585431 disposed:false
+55 silly fetch manifest react-dom@^18.3.1
+56 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+57 http cache https://registry.npmjs.org/react-dom 6ms (cache hit)
+58 silly packumentCache full:https://registry.npmjs.org/react-dom set size:8664930 disposed:false
+59 silly fetch manifest react-native-webview@*
+60 silly packumentCache full:https://registry.npmjs.org/react-native-webview cache-miss
+61 http cache https://registry.npmjs.org/react-native-webview 2ms (cache hit)
+62 silly packumentCache full:https://registry.npmjs.org/react-native-webview set size:1355349 disposed:false
+63 silly fetch manifest expo-asset@>=8.4
+64 silly packumentCache full:https://registry.npmjs.org/expo-asset cache-miss
+65 http cache https://registry.npmjs.org/expo-asset 2ms (cache hit)
+66 silly packumentCache full:https://registry.npmjs.org/expo-asset set size:887571 disposed:false
+67 silly fetch manifest expo-file-system@>=11.0
+68 silly packumentCache full:https://registry.npmjs.org/expo-file-system cache-miss
+69 http cache https://registry.npmjs.org/expo-file-system 2ms (cache hit)
+70 silly packumentCache full:https://registry.npmjs.org/expo-file-system set size:941754 disposed:false
+71 silly fetch manifest expo-gl@>=11.0
+72 silly packumentCache full:https://registry.npmjs.org/expo-gl cache-miss
+73 http cache https://registry.npmjs.org/expo-gl 2ms (cache hit)
+74 silly packumentCache full:https://registry.npmjs.org/expo-gl set size:845171 disposed:false
+75 silly fetch manifest react-native-reanimated@*
+76 silly packumentCache full:https://registry.npmjs.org/react-native-reanimated cache-miss
+77 http cache https://registry.npmjs.org/react-native-reanimated 8ms (cache hit)
+78 silly packumentCache full:https://registry.npmjs.org/react-native-reanimated set size:10491313 disposed:false
+79 silly fetch manifest react-native-worklets@>=0.7.0
+80 silly packumentCache full:https://registry.npmjs.org/react-native-worklets cache-miss
+81 http cache https://registry.npmjs.org/react-native-worklets 32ms (cache hit)
+82 silly packumentCache full:https://registry.npmjs.org/react-native-worklets set size:2295085 disposed:false
+83 silly fetch manifest @babel/core@*
+84 silly packumentCache full:https://registry.npmjs.org/@babel%2fcore cache-miss
+85 http cache https://registry.npmjs.org/@babel%2fcore 2ms (cache hit)
+86 silly packumentCache full:https://registry.npmjs.org/@babel%2fcore set size:756140 disposed:false
+87 silly fetch manifest react-native-web@*
+88 silly packumentCache full:https://registry.npmjs.org/react-native-web cache-miss
+89 http cache https://registry.npmjs.org/react-native-web 2ms (cache hit)
+90 silly packumentCache full:https://registry.npmjs.org/react-native-web set size:1090363 disposed:false
+91 silly fetch manifest three@^0.164.1
+92 silly packumentCache full:https://registry.npmjs.org/three cache-miss
+93 http cache https://registry.npmjs.org/three 2ms (cache hit)
+94 silly packumentCache full:https://registry.npmjs.org/three set size:921533 disposed:false
+95 silly fetch manifest clsx@^2.1.1
+96 silly packumentCache full:https://registry.npmjs.org/clsx cache-miss
+97 http cache https://registry.npmjs.org/clsx 1ms (cache hit)
+98 silly packumentCache full:https://registry.npmjs.org/clsx set size:42506 disposed:false
+99 silly fetch manifest framer-motion@^11.1.7
+100 silly packumentCache full:https://registry.npmjs.org/framer-motion cache-miss
+101 http cache https://registry.npmjs.org/framer-motion 8ms (cache hit)
+102 silly packumentCache full:https://registry.npmjs.org/framer-motion set size:9963211 disposed:false
+103 silly fetch manifest @emotion/is-prop-valid@*
+104 silly packumentCache full:https://registry.npmjs.org/@emotion%2fis-prop-valid cache-miss
+105 http cache https://registry.npmjs.org/@emotion%2fis-prop-valid 3ms (cache hit)
+106 silly packumentCache full:https://registry.npmjs.org/@emotion%2fis-prop-valid set size:96664 disposed:false
+107 silly fetch manifest lenis@^1.0.45
+108 silly packumentCache full:https://registry.npmjs.org/lenis cache-miss
+109 http cache https://registry.npmjs.org/lenis 4ms (cache hit)
+110 silly packumentCache full:https://registry.npmjs.org/lenis set size:335213 disposed:false
+111 silly fetch manifest @nuxt/kit@>=3.0.0
+112 silly packumentCache full:https://registry.npmjs.org/@nuxt%2fkit cache-miss
+113 http cache https://registry.npmjs.org/@nuxt%2fkit 1ms (cache hit)
+114 silly packumentCache full:https://registry.npmjs.org/@nuxt%2fkit set size:363045 disposed:false
+115 silly fetch manifest vue@>=3.0.0
+116 silly packumentCache full:https://registry.npmjs.org/vue cache-miss
+117 http cache https://registry.npmjs.org/vue 2ms (cache hit)
+118 silly packumentCache full:https://registry.npmjs.org/vue set size:2001333 disposed:false
+119 silly fetch manifest typescript@*
+120 silly packumentCache full:https://registry.npmjs.org/typescript cache-miss
+121 http cache https://registry.npmjs.org/typescript 12ms (cache hit)
+122 silly packumentCache full:https://registry.npmjs.org/typescript set size:15321314 disposed:false
+123 silly fetch manifest lucide-react@^0.378.0
+124 silly packumentCache full:https://registry.npmjs.org/lucide-react cache-miss
+125 http cache https://registry.npmjs.org/lucide-react 3ms (cache hit)
+126 silly packumentCache full:https://registry.npmjs.org/lucide-react set size:2199005 disposed:false
+127 silly fetch manifest tailwind-merge@^2.3.0
+128 silly packumentCache full:https://registry.npmjs.org/tailwind-merge cache-miss
+129 http cache https://registry.npmjs.org/tailwind-merge 2ms (cache hit)
+130 silly packumentCache full:https://registry.npmjs.org/tailwind-merge set size:1524174 disposed:false
+131 silly placeDep ROOT @react-three/drei@9.122.0 REPLACE for: data-engineer-portfolio@0.0.0 want: ^9.105.4
+132 silly placeDep ROOT @react-three/fiber@8.18.0 REPLACE for: data-engineer-portfolio@0.0.0 want: ^8.16.2
+133 silly placeDep ROOT clsx@2.1.1 REPLACE for: data-engineer-portfolio@0.0.0 want: ^2.1.1
+134 silly placeDep ROOT framer-motion@11.18.2 REPLACE for: data-engineer-portfolio@0.0.0 want: ^11.1.7
+135 silly placeDep ROOT lenis@1.3.18 REPLACE for: data-engineer-portfolio@0.0.0 want: ^1.0.45
+136 silly placeDep ROOT lucide-react@0.378.0 REPLACE for: data-engineer-portfolio@0.0.0 want: ^0.378.0
+137 silly placeDep ROOT tailwind-merge@2.6.1 REPLACE for: data-engineer-portfolio@0.0.0 want: ^2.3.0
+138 silly placeDep ROOT three@0.164.1 REPLACE for: data-engineer-portfolio@0.0.0 want: ^0.164.1
+139 silly reify moves {}
+140 silly audit bulk request {
+140 silly audit   '@babel/code-frame': [ '7.29.0' ],
+140 silly audit   '@babel/compat-data': [ '7.29.0' ],
+140 silly audit   '@babel/core': [ '7.29.0' ],
+140 silly audit   '@babel/generator': [ '7.29.1' ],
+140 silly audit   '@babel/helper-compilation-targets': [ '7.28.6' ],
+140 silly audit   '@babel/helper-globals': [ '7.28.0' ],
+140 silly audit   '@babel/helper-module-imports': [ '7.28.6' ],
+140 silly audit   '@babel/helper-module-transforms': [ '7.28.6' ],
+140 silly audit   '@babel/helper-plugin-utils': [ '7.28.6' ],
+140 silly audit   '@babel/helper-string-parser': [ '7.27.1' ],
+140 silly audit   '@babel/helper-validator-identifier': [ '7.28.5' ],
+140 silly audit   '@babel/helper-validator-option': [ '7.27.1' ],
+140 silly audit   '@babel/helpers': [ '7.28.6' ],
+140 silly audit   '@babel/parser': [ '7.29.0' ],
+140 silly audit   '@babel/plugin-transform-react-jsx-self': [ '7.27.1' ],
+140 silly audit   '@babel/plugin-transform-react-jsx-source': [ '7.27.1' ],
+140 silly audit   '@babel/runtime': [ '7.28.6' ],
+140 silly audit   '@babel/template': [ '7.28.6' ],
+140 silly audit   '@babel/traverse': [ '7.29.0' ],
+140 silly audit   '@babel/types': [ '7.29.0' ],
+140 silly audit   '@dimforge/rapier3d-compat': [ '0.12.0' ],
+140 silly audit   '@esbuild/aix-ppc64': [ '0.21.5' ],
+140 silly audit   '@esbuild/android-arm': [ '0.21.5' ],
+140 silly audit   '@esbuild/android-arm64': [ '0.21.5' ],
+140 silly audit   '@esbuild/android-x64': [ '0.21.5' ],
+140 silly audit   '@esbuild/darwin-arm64': [ '0.21.5' ],
+140 silly audit   '@esbuild/darwin-x64': [ '0.21.5' ],
+140 silly audit   '@esbuild/freebsd-arm64': [ '0.21.5' ],
+140 silly audit   '@esbuild/freebsd-x64': [ '0.21.5' ],
+140 silly audit   '@esbuild/linux-arm': [ '0.21.5' ],
+140 silly audit   '@esbuild/linux-arm64': [ '0.21.5' ],
+140 silly audit   '@esbuild/linux-ia32': [ '0.21.5' ],
+140 silly audit   '@esbuild/linux-loong64': [ '0.21.5' ],
+140 silly audit   '@esbuild/linux-mips64el': [ '0.21.5' ],
+140 silly audit   '@esbuild/linux-ppc64': [ '0.21.5' ],
+140 silly audit   '@esbuild/linux-riscv64': [ '0.21.5' ],
+140 silly audit   '@esbuild/linux-s390x': [ '0.21.5' ],
+140 silly audit   '@esbuild/linux-x64': [ '0.21.5' ],
+140 silly audit   '@esbuild/netbsd-x64': [ '0.21.5' ],
+140 silly audit   '@esbuild/openbsd-x64': [ '0.21.5' ],
+140 silly audit   '@esbuild/sunos-x64': [ '0.21.5' ],
+140 silly audit   '@esbuild/win32-arm64': [ '0.21.5' ],
+140 silly audit   '@esbuild/win32-ia32': [ '0.21.5' ],
+140 silly audit   '@esbuild/win32-x64': [ '0.21.5' ],
+140 silly audit   '@jridgewell/gen-mapping': [ '0.3.13' ],
+140 silly audit   '@jridgewell/remapping': [ '2.3.5' ],
+140 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+140 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.5' ],
+140 silly audit   '@jridgewell/trace-mapping': [ '0.3.31' ],
+140 silly audit   '@mediapipe/tasks-vision': [ '0.10.17' ],
+140 silly audit   '@monogrid/gainmap-js': [ '3.4.0' ],
+140 silly audit   '@react-spring/animated': [ '9.7.5' ],
+140 silly audit   '@react-spring/core': [ '9.7.5' ],
+140 silly audit   '@react-spring/rafz': [ '9.7.5' ],
+140 silly audit   '@react-spring/shared': [ '9.7.5' ],
+140 silly audit   '@react-spring/three': [ '9.7.5' ],
+140 silly audit   '@react-spring/types': [ '9.7.5' ],
+140 silly audit   zustand: [ '4.5.7', '5.0.11', '3.7.2' ],
+140 silly audit   '@rolldown/pluginutils': [ '1.0.0-beta.27' ],
+140 silly audit   '@rollup/rollup-android-arm-eabi': [ '4.59.0' ],
+140 silly audit   '@rollup/rollup-android-arm64': [ '4.59.0' ],
+140 silly audit   '@rollup/rollup-darwin-arm64': [ '4.59.0' ],
+140 silly audit   '@rollup/rollup-darwin-x64': [ '4.59.0' ],
+140 silly audit   '@rollup/rollup-freebsd-arm64': [ '4.59.0' ],
+140 silly audit   '@rollup/rollup-freebsd-x64': [ '4.59.0' ],
+140 silly audit   '@rollup/rollup-linux-arm-gnueabihf': [ '4.59.0' ],
+140 silly audit   '@rollup/rollup-linux-arm-musleabihf': [ '4.59.0' ],
+140 silly audit   '@rollup/rollup-linux-arm64-gnu': [ '4.59.0' ],
+140 silly audit   '@rollup/rollup-linux-arm64-musl': [ '4.59.0' ],
+140 silly audit   '@rollup/rollup-linux-loong64-gnu': [ '4.59.0' ],
+140 silly audit   '@rollup/rollup-linux-loong64-musl': [ '4.59.0' ],
+140 silly audit   '@rollup/rollup-linux-ppc64-gnu': [ '4.59.0' ],
+140 silly audit   '@rollup/rollup-linux-ppc64-musl': [ '4.59.0' ],
+140 silly audit   '@rollup/rollup-linux-riscv64-gnu': [ '4.59.0' ],
+140 silly audit   '@rollup/rollup-linux-riscv64-musl': [ '4.59.0' ],
+140 silly audit   '@rollup/rollup-linux-s390x-gnu': [ '4.59.0' ],
+140 silly audit   '@rollup/rollup-linux-x64-gnu': [ '4.59.0' ],
+140 silly audit   '@rollup/rollup-linux-x64-musl': [ '4.59.0' ],
+140 silly audit   '@rollup/rollup-openbsd-x64': [ '4.59.0' ],
+140 silly audit   '@rollup/rollup-openharmony-arm64': [ '4.59.0' ],
+140 silly audit   '@rollup/rollup-win32-arm64-msvc': [ '4.59.0' ],
+140 silly audit   '@rollup/rollup-win32-ia32-msvc': [ '4.59.0' ],
+140 silly audit   '@rollup/rollup-win32-x64-gnu': [ '4.59.0' ],
+140 silly audit   '@rollup/rollup-win32-x64-msvc': [ '4.59.0' ],
+140 silly audit   '@tweenjs/tween.js': [ '23.1.3' ],
+140 silly audit   '@types/babel__core': [ '7.20.5' ],
+140 silly audit   '@types/babel__generator': [ '7.27.0' ],
+140 silly audit   '@types/babel__template': [ '7.4.4' ],
+140 silly audit   '@types/babel__traverse': [ '7.28.0' ],
+140 silly audit   '@types/draco3d': [ '1.4.10' ],
+140 silly audit   '@types/estree': [ '1.0.8' ],
+140 silly audit   '@types/offscreencanvas': [ '2019.7.3' ],
+140 silly audit   '@types/prop-types': [ '15.7.15' ],
+140 silly audit   '@types/react': [ '18.3.28' ],
+140 silly audit   '@types/react-dom': [ '18.3.7' ],
+140 silly audit   '@types/react-reconciler': [ '0.26.7', '0.28.9' ],
+140 silly audit   '@types/stats.js': [ '0.17.4' ],
+140 silly audit   '@types/three': [ '0.183.1' ],
+140 silly audit   '@types/webxr': [ '0.5.24' ],
+140 silly audit   '@use-gesture/core': [ '10.3.1' ],
+140 silly audit   '@use-gesture/react': [ '10.3.1' ],
+140 silly audit   '@vitejs/plugin-react': [ '4.7.0' ],
+140 silly audit   '@webgpu/types': [ '0.1.69' ],
+140 silly audit   'base64-js': [ '1.5.1' ],
+140 silly audit   'baseline-browser-mapping': [ '2.10.0' ],
+140 silly audit   'bidi-js': [ '1.0.3' ],
+140 silly audit   browserslist: [ '4.28.1' ],
+140 silly audit   buffer: [ '6.0.3' ],
+140 silly audit   'camera-controls': [ '2.10.1' ],
+140 silly audit   'caniuse-lite': [ '1.0.30001777' ],
+140 silly audit   'convert-source-map': [ '2.0.0' ],
+140 silly audit   'cross-env': [ '7.0.3' ],
+140 silly audit   'cross-spawn': [ '7.0.6' ],
+140 silly audit   csstype: [ '3.2.3' ],
+140 silly audit   debug: [ '4.4.3' ],
+140 silly audit   'detect-gpu': [ '5.0.70' ],
+140 silly audit   draco3d: [ '1.5.7' ],
+140 silly audit   'electron-to-chromium': [ '1.5.307' ],
+140 silly audit   esbuild: [ '0.21.5' ],
+140 silly audit   escalade: [ '3.2.0' ],
+140 silly audit   fflate: [ '0.8.2', '0.6.10' ],
+140 silly audit   fsevents: [ '2.3.3' ],
+140 silly audit   gensync: [ '1.0.0-beta.2' ],
+140 silly audit   'glsl-noise': [ '0.0.0' ],
+140 silly audit   'hls.js': [ '1.6.15' ],
+140 silly audit   ieee754: [ '1.2.1' ],
+140 silly audit   immediate: [ '3.0.6' ],
+140 silly audit   'is-promise': [ '2.2.2' ],
+140 silly audit   isexe: [ '2.0.0' ],
+140 silly audit   'its-fine': [ '1.2.5' ],
+140 silly audit   'js-tokens': [ '4.0.0' ],
+140 silly audit   jsesc: [ '3.1.0' ],
+140 silly audit   json5: [ '2.2.3' ],
+140 silly audit   lie: [ '3.3.0' ],
+140 silly audit   'loose-envify': [ '1.4.0' ],
+140 silly audit   'lru-cache': [ '5.1.1' ],
+140 silly audit   maath: [ '0.10.8' ],
+140 silly audit   meshline: [ '3.3.1' ],
+140 silly audit   meshoptimizer: [ '1.0.1' ],
+140 silly audit   'motion-dom': [ '11.18.1' ],
+140 silly audit   'motion-utils': [ '11.18.1' ],
+140 silly audit   ms: [ '2.1.3' ],
+140 silly audit   nanoid: [ '3.3.11' ],
+140 silly audit   'node-releases': [ '2.0.36' ],
+140 silly audit   'object-assign': [ '4.1.1' ],
+140 silly audit   'path-key': [ '3.1.1' ],
+140 silly audit   picocolors: [ '1.1.1' ],
+140 silly audit   postcss: [ '8.5.8' ],
+140 silly audit   potpack: [ '1.0.2' ],
+140 silly audit   'promise-worker-transferable': [ '1.0.4' ],
+140 silly audit   'prop-types': [ '15.8.1' ],
+140 silly audit   react: [ '18.3.1' ],
+140 silly audit   'react-composer': [ '5.0.3' ],
+140 silly audit   'react-dom': [ '18.3.1' ],
+140 silly audit   scheduler: [ '0.23.2', '0.21.0' ],
+140 silly audit   'react-is': [ '16.13.1' ],
+140 silly audit   'react-reconciler': [ '0.27.0' ],
+140 silly audit   'react-refresh': [ '0.17.0' ],
+140 silly audit   'react-use-measure': [ '2.1.7' ],
+140 silly audit   'require-from-string': [ '2.0.2' ],
+140 silly audit   rollup: [ '4.59.0' ],
+140 silly audit   semver: [ '6.3.1' ],
+140 silly audit   'shebang-command': [ '2.0.0' ],
+140 silly audit   'shebang-regex': [ '3.0.0' ],
+140 silly audit   'source-map-js': [ '1.2.1' ],
+140 silly audit   'stats-gl': [ '2.4.2' ],
+140 silly audit   three: [ '0.170.0', '0.164.1' ],
+140 silly audit   'stats.js': [ '0.17.0' ],
+140 silly audit   'suspend-react': [ '0.1.3' ],
+140 silly audit   'three-mesh-bvh': [ '0.7.8' ],
+140 silly audit   'three-stdlib': [ '2.36.1' ],
+140 silly audit   'troika-three-text': [ '0.52.4' ],
+140 silly audit   'troika-three-utils': [ '0.52.4' ],
+140 silly audit   'troika-worker-utils': [ '0.52.0' ],
+140 silly audit   tslib: [ '2.8.1' ],
+140 silly audit   'tunnel-rat': [ '0.1.2' ],
+140 silly audit   'update-browserslist-db': [ '1.2.3' ],
+140 silly audit   'use-sync-external-store': [ '1.6.0' ],
+140 silly audit   'utility-types': [ '3.11.0' ],
+140 silly audit   vite: [ '5.4.21' ],
+140 silly audit   'webgl-constants': [ '1.1.1' ],
+140 silly audit   'webgl-sdf-generator': [ '1.1.1' ],
+140 silly audit   which: [ '2.0.2' ],
+140 silly audit   yallist: [ '3.1.1' ],
+140 silly audit   '@react-three/drei': [ '9.122.0' ],
+140 silly audit   '@react-three/fiber': [ '8.18.0' ],
+140 silly audit   clsx: [ '2.1.1' ],
+140 silly audit   'framer-motion': [ '11.18.2' ],
+140 silly audit   lenis: [ '1.3.18' ],
+140 silly audit   'lucide-react': [ '0.378.0' ],
+140 silly audit   'tailwind-merge': [ '2.6.1' ]
+140 silly audit }
+141 verbose reify failed optional dependency /Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@rollup/rollup-win32-x64-msvc
+142 silly reify mark deleted [
+142 silly reify   '/Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@rollup/rollup-win32-x64-msvc'
+142 silly reify ]
+143 verbose reify failed optional dependency /Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@rollup/rollup-win32-x64-gnu
+144 silly reify mark deleted [
+144 silly reify   '/Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@rollup/rollup-win32-x64-gnu'
+144 silly reify ]
+145 verbose reify failed optional dependency /Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@rollup/rollup-win32-ia32-msvc
+146 silly reify mark deleted [
+146 silly reify   '/Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@rollup/rollup-win32-ia32-msvc'
+146 silly reify ]
+147 verbose reify failed optional dependency /Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@rollup/rollup-win32-arm64-msvc
+148 silly reify mark deleted [
+148 silly reify   '/Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@rollup/rollup-win32-arm64-msvc'
+148 silly reify ]
+149 verbose reify failed optional dependency /Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@rollup/rollup-openharmony-arm64
+150 silly reify mark deleted [
+150 silly reify   '/Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@rollup/rollup-openharmony-arm64'
+150 silly reify ]
+151 verbose reify failed optional dependency /Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@rollup/rollup-openbsd-x64
+152 silly reify mark deleted [
+152 silly reify   '/Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@rollup/rollup-openbsd-x64'
+152 silly reify ]
+153 verbose reify failed optional dependency /Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@rollup/rollup-linux-x64-musl
+154 silly reify mark deleted [
+154 silly reify   '/Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@rollup/rollup-linux-x64-musl'
+154 silly reify ]
+155 verbose reify failed optional dependency /Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@rollup/rollup-linux-x64-gnu
+156 silly reify mark deleted [
+156 silly reify   '/Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@rollup/rollup-linux-x64-gnu'
+156 silly reify ]
+157 verbose reify failed optional dependency /Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@rollup/rollup-linux-s390x-gnu
+158 silly reify mark deleted [
+158 silly reify   '/Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@rollup/rollup-linux-s390x-gnu'
+158 silly reify ]
+159 verbose reify failed optional dependency /Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@rollup/rollup-linux-riscv64-musl
+160 silly reify mark deleted [
+160 silly reify   '/Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@rollup/rollup-linux-riscv64-musl'
+160 silly reify ]
+161 verbose reify failed optional dependency /Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@rollup/rollup-linux-riscv64-gnu
+162 silly reify mark deleted [
+162 silly reify   '/Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@rollup/rollup-linux-riscv64-gnu'
+162 silly reify ]
+163 verbose reify failed optional dependency /Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@rollup/rollup-linux-ppc64-musl
+164 silly reify mark deleted [
+164 silly reify   '/Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@rollup/rollup-linux-ppc64-musl'
+164 silly reify ]
+165 verbose reify failed optional dependency /Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@rollup/rollup-linux-ppc64-gnu
+166 silly reify mark deleted [
+166 silly reify   '/Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@rollup/rollup-linux-ppc64-gnu'
+166 silly reify ]
+167 verbose reify failed optional dependency /Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@rollup/rollup-linux-loong64-musl
+168 silly reify mark deleted [
+168 silly reify   '/Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@rollup/rollup-linux-loong64-musl'
+168 silly reify ]
+169 verbose reify failed optional dependency /Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@rollup/rollup-linux-loong64-gnu
+170 silly reify mark deleted [
+170 silly reify   '/Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@rollup/rollup-linux-loong64-gnu'
+170 silly reify ]
+171 verbose reify failed optional dependency /Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@rollup/rollup-linux-arm64-musl
+172 silly reify mark deleted [
+172 silly reify   '/Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@rollup/rollup-linux-arm64-musl'
+172 silly reify ]
+173 verbose reify failed optional dependency /Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@rollup/rollup-linux-arm64-gnu
+174 silly reify mark deleted [
+174 silly reify   '/Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@rollup/rollup-linux-arm64-gnu'
+174 silly reify ]
+175 verbose reify failed optional dependency /Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@rollup/rollup-linux-arm-musleabihf
+176 silly reify mark deleted [
+176 silly reify   '/Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@rollup/rollup-linux-arm-musleabihf'
+176 silly reify ]
+177 verbose reify failed optional dependency /Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@rollup/rollup-linux-arm-gnueabihf
+178 silly reify mark deleted [
+178 silly reify   '/Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@rollup/rollup-linux-arm-gnueabihf'
+178 silly reify ]
+179 verbose reify failed optional dependency /Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@rollup/rollup-freebsd-x64
+180 silly reify mark deleted [
+180 silly reify   '/Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@rollup/rollup-freebsd-x64'
+180 silly reify ]
+181 verbose reify failed optional dependency /Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@rollup/rollup-freebsd-arm64
+182 silly reify mark deleted [
+182 silly reify   '/Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@rollup/rollup-freebsd-arm64'
+182 silly reify ]
+183 verbose reify failed optional dependency /Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@rollup/rollup-darwin-x64
+184 silly reify mark deleted [
+184 silly reify   '/Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@rollup/rollup-darwin-x64'
+184 silly reify ]
+185 verbose reify failed optional dependency /Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@rollup/rollup-android-arm64
+186 silly reify mark deleted [
+186 silly reify   '/Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@rollup/rollup-android-arm64'
+186 silly reify ]
+187 verbose reify failed optional dependency /Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@rollup/rollup-android-arm-eabi
+188 silly reify mark deleted [
+188 silly reify   '/Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@rollup/rollup-android-arm-eabi'
+188 silly reify ]
+189 verbose reify failed optional dependency /Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@esbuild/win32-x64
+190 silly reify mark deleted [
+190 silly reify   '/Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@esbuild/win32-x64'
+190 silly reify ]
+191 verbose reify failed optional dependency /Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@esbuild/win32-ia32
+192 silly reify mark deleted [
+192 silly reify   '/Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@esbuild/win32-ia32'
+192 silly reify ]
+193 verbose reify failed optional dependency /Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@esbuild/win32-arm64
+194 silly reify mark deleted [
+194 silly reify   '/Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@esbuild/win32-arm64'
+194 silly reify ]
+195 verbose reify failed optional dependency /Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@esbuild/sunos-x64
+196 silly reify mark deleted [
+196 silly reify   '/Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@esbuild/sunos-x64'
+196 silly reify ]
+197 verbose reify failed optional dependency /Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@esbuild/openbsd-x64
+198 silly reify mark deleted [
+198 silly reify   '/Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@esbuild/openbsd-x64'
+198 silly reify ]
+199 verbose reify failed optional dependency /Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@esbuild/netbsd-x64
+200 silly reify mark deleted [
+200 silly reify   '/Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@esbuild/netbsd-x64'
+200 silly reify ]
+201 verbose reify failed optional dependency /Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@esbuild/linux-x64
+202 silly reify mark deleted [
+202 silly reify   '/Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@esbuild/linux-x64'
+202 silly reify ]
+203 verbose reify failed optional dependency /Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@esbuild/linux-s390x
+204 silly reify mark deleted [
+204 silly reify   '/Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@esbuild/linux-s390x'
+204 silly reify ]
+205 verbose reify failed optional dependency /Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@esbuild/linux-riscv64
+206 silly reify mark deleted [
+206 silly reify   '/Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@esbuild/linux-riscv64'
+206 silly reify ]
+207 verbose reify failed optional dependency /Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@esbuild/linux-ppc64
+208 silly reify mark deleted [
+208 silly reify   '/Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@esbuild/linux-ppc64'
+208 silly reify ]
+209 verbose reify failed optional dependency /Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@esbuild/linux-mips64el
+210 silly reify mark deleted [
+210 silly reify   '/Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@esbuild/linux-mips64el'
+210 silly reify ]
+211 verbose reify failed optional dependency /Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@esbuild/linux-loong64
+212 silly reify mark deleted [
+212 silly reify   '/Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@esbuild/linux-loong64'
+212 silly reify ]
+213 verbose reify failed optional dependency /Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@esbuild/linux-ia32
+214 silly reify mark deleted [
+214 silly reify   '/Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@esbuild/linux-ia32'
+214 silly reify ]
+215 verbose reify failed optional dependency /Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@esbuild/linux-arm64
+216 silly reify mark deleted [
+216 silly reify   '/Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@esbuild/linux-arm64'
+216 silly reify ]
+217 verbose reify failed optional dependency /Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@esbuild/linux-arm
+218 silly reify mark deleted [
+218 silly reify   '/Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@esbuild/linux-arm'
+218 silly reify ]
+219 verbose reify failed optional dependency /Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@esbuild/freebsd-x64
+220 silly reify mark deleted [
+220 silly reify   '/Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@esbuild/freebsd-x64'
+220 silly reify ]
+221 verbose reify failed optional dependency /Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@esbuild/freebsd-arm64
+222 silly reify mark deleted [
+222 silly reify   '/Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@esbuild/freebsd-arm64'
+222 silly reify ]
+223 verbose reify failed optional dependency /Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@esbuild/darwin-x64
+224 silly reify mark deleted [
+224 silly reify   '/Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@esbuild/darwin-x64'
+224 silly reify ]
+225 verbose reify failed optional dependency /Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@esbuild/android-x64
+226 silly reify mark deleted [
+226 silly reify   '/Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@esbuild/android-x64'
+226 silly reify ]
+227 verbose reify failed optional dependency /Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@esbuild/android-arm64
+228 silly reify mark deleted [
+228 silly reify   '/Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@esbuild/android-arm64'
+228 silly reify ]
+229 verbose reify failed optional dependency /Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@esbuild/android-arm
+230 silly reify mark deleted [
+230 silly reify   '/Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@esbuild/android-arm'
+230 silly reify ]
+231 verbose reify failed optional dependency /Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@esbuild/aix-ppc64
+232 silly reify mark deleted [
+232 silly reify   '/Users/sagnikmukherjee/Documents/Data Engineer Portfolio/node_modules/@esbuild/aix-ppc64'
+232 silly reify ]
+233 http cache fsevents@https://registry.npmjs.org/fsevents/-/fsevents-2.3.3.tgz 0ms (cache hit)
+234 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 800ms
+235 silly audit report {
+235 silly audit report   esbuild: [
+235 silly audit report     {
+235 silly audit report       id: 1102341,
+235 silly audit report       url: 'https://github.com/advisories/GHSA-67mh-4wv8-2f99',
+235 silly audit report       title: 'esbuild enables any website to send any requests to the development server and read the response',
+235 silly audit report       severity: 'moderate',
+235 silly audit report       vulnerable_versions: '<=0.24.2',
+235 silly audit report       cwe: [Array],
+235 silly audit report       cvss: [Object]
+235 silly audit report     }
+235 silly audit report   ]
+235 silly audit report }
+236 silly packumentCache corgi:https://registry.npmjs.org/esbuild cache-miss
+237 http cache https://registry.npmjs.org/esbuild 3ms (cache hit)
+238 silly packumentCache corgi:https://registry.npmjs.org/esbuild set size:879341 disposed:false
+239 silly packumentCache corgi:https://registry.npmjs.org/vite cache-miss
+240 http cache https://registry.npmjs.org/vite 3ms (cache hit)
+241 silly packumentCache corgi:https://registry.npmjs.org/vite set size:2190484 disposed:false
+242 silly packumentCache corgi:https://registry.npmjs.org/@vitejs%2fplugin-react cache-miss
+243 http cache https://registry.npmjs.org/@vitejs%2fplugin-react 6ms (cache hit)
+244 silly packumentCache corgi:https://registry.npmjs.org/@vitejs%2fplugin-react set size:108650 disposed:false
+245 silly ADD node_modules/fsevents
+246 silly ADD
+247 silly ADD
+248 silly ADD
+249 silly ADD
+250 silly ADD
+251 silly ADD
+252 silly ADD
+253 silly ADD
+254 silly ADD
+255 silly ADD
+256 silly ADD
+257 silly ADD
+258 silly ADD
+259 silly ADD
+260 silly ADD
+261 silly ADD
+262 silly ADD
+263 silly ADD
+264 silly ADD
+265 silly ADD
+266 silly ADD
+267 silly ADD
+268 silly ADD
+269 silly ADD
+270 silly ADD
+271 silly ADD
+272 silly ADD
+273 silly ADD
+274 silly ADD
+275 silly ADD
+276 silly ADD
+277 silly ADD
+278 silly ADD
+279 silly ADD
+280 silly ADD
+281 silly ADD
+282 silly ADD
+283 silly ADD
+284 silly ADD
+285 silly ADD
+286 silly ADD
+287 silly ADD
+288 silly ADD
+289 silly ADD
+290 silly ADD
+291 silly ADD
+292 verbose cwd /Users/sagnikmukherjee/Documents/Data Engineer Portfolio
+293 verbose os Darwin 24.6.0
+294 verbose node v22.22.0
+295 verbose npm  v10.9.4
+296 verbose exit 0
+297 info ok
