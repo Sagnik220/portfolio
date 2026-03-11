@@ -9,6 +9,7 @@ const projects = [
         description: 'A low-latency data processing engine for real-time financial analytics, handling 1M+ events per second.',
         image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc48?auto=format&fit=crop&q=80&w=1200',
         link: '#',
+        github: '#',
         tech: ['Scala', 'Akka', 'ClickHouse']
     },
     {
@@ -17,6 +18,7 @@ const projects = [
         description: 'Predictive monitoring system that identifies data quality degradation before it impacts downstream systems.',
         image: 'https://images.unsplash.com/photo-1551288049-bbda38a5f452?auto=format&fit=crop&q=80&w=1200',
         link: '#',
+        github: '#',
         tech: ['Python', 'PyTorch', 'Airflow']
     },
     {
@@ -25,7 +27,17 @@ const projects = [
         description: 'Hybrid-cloud data synchronization layer with zero-loss guarantees across fragmented regions.',
         image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=1200',
         link: '#',
+        github: '#',
         tech: ['Go', 'gRPC', 'Terraform']
+    },
+    {
+        title: 'MINTED STORE ANALYTICS',
+        category: 'DATA WAREHOUSE // LAKEHOUSE',
+        description: 'Production-grade end-to-end Data Warehouse on Databricks using Medallion Architecture. Ingests real Shopify & Shiprocket API data through Bronze → Silver → Gold layers powering 6 analytics domains.',
+        image: 'https://plus.unsplash.com/premium_photo-1681487963628-1a9298789518?q=80&w=1200&auto=format&fit=crop',
+        link: 'https://github.com/Sagnik220/Minted_Store_Analytics',
+        github: 'https://github.com/Sagnik220/Minted_Store_Analytics',
+        tech: ['Databricks', 'Delta Lake', 'PySpark', 'Shopify API', 'Shiprocket API']
     }
 ];
 
@@ -70,12 +82,12 @@ const Projects = () => {
                                 />
                                 <div className="absolute inset-0 bg-black/40 group-hover:bg-black/10 transition-colors duration-500" />
                                 <div className="absolute top-8 right-8 flex gap-3 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-500">
-                                    <div className="w-12 h-12 rounded-full bg-white text-black flex items-center justify-center cursor-pointer">
+                                    <a href={project.link} target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full bg-white text-black flex items-center justify-center cursor-pointer transition-transform hover:scale-110">
                                         <ArrowUpRight size={20} className="stroke-[3]" />
-                                    </div>
-                                    <div className="w-12 h-12 rounded-full bg-black/50 border border-white/10 backdrop-blur-xl text-white flex items-center justify-center cursor-pointer">
+                                    </a>
+                                    <a href={project.github} target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full bg-black/50 border border-white/10 backdrop-blur-xl text-white flex items-center justify-center cursor-pointer transition-transform hover:scale-110">
                                         <Github size={20} />
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
 
@@ -83,9 +95,11 @@ const Projects = () => {
                                 <span className="text-accent-green font-mono text-[10px] font-black uppercase tracking-[0.3em] mb-4 block">
                                     {project.category}
                                 </span>
-                                <h3 className="text-4xl font-black mb-4 tracking-tight group-hover:text-accent-yellow transition-colors cursor-pointer">
-                                    {project.title}
-                                </h3>
+                                <a href={project.link} target="_blank" rel="noopener noreferrer" className="block w-fit">
+                                    <h3 className="text-4xl font-black mb-4 tracking-tight group-hover:text-accent-yellow transition-colors cursor-pointer">
+                                        {project.title}
+                                    </h3>
+                                </a>
                                 <p className="text-lg text-[#a1a1aa] mb-8 leading-relaxed max-w-xl">
                                     {project.description}
                                 </p>
